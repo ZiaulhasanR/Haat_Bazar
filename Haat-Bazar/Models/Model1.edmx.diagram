@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6a58c2eec3a748f996dac968bb5b5451" Name="Diagram1">
+        <EntityTypeShape EntityType="HaatBazarModel.admin_table" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.catagory" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.Courrier" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.customer" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.Invoice" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.OnlineShop" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.Order" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.Payment" Width="1.5" PointX="9.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HaatBazarModel.Product" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="HaatBazarModel.FK__catagorie__admin__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Products__admin___70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Products__Catago__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Invoice__Custome__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Payment__Custome__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Orders__InvoiceI__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Orders__ProductI__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="HaatBazarModel.FK__Payment__OrderId__787EE5A0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
